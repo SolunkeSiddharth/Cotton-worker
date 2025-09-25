@@ -1,0 +1,38 @@
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+header, .navbar, .footer {
+    background-color: #b30000; /* deep red */
+    color: white;
+    padding: 10px;
+}
+
+button {
+    background-color: #e60000; /* red */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #990000; /* darker red */
+}
+
+.popup {
+    background-color: #fff0f0;
+    border: 2px solid #e60000;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
